@@ -101,16 +101,18 @@ body {
 #menu ul li.active {
 	display: block;
 	color: #4c4b4a;
-	padding: 8px 2px 0 2px;	
+	padding: 10px 2px 0 2px;	
 	float: right;
 	width: 95px;
-	height: 23px;
+	height: 25px;
 	font-weight: bold;
 	font-size: 11pt;
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: center;
 	border: none;
+	-moz-border-radius: 7px 7px 0 0;
+	border-radius: 7px 7px 0 0;
 }
 
 #menu ul li.active {
@@ -121,6 +123,10 @@ body {
 #menu ul li a:hover {
 	color: white;
 	background: #f91d79;
+}
+
+#menu ul li a:active {
+	background: #03bdf8;
 }
 
 /* Footer
@@ -166,27 +172,27 @@ a#blogger {
 	background: transparent url(../images/blogger.png) no-repeat;
 }
 
-#email {
+a#email {
 	background-image:url(../images/email.png);    
 }
 
-#facebook {
+a#facebook {
 	background-image:url(../images/facebook.png);    
 }
 
-#linkedin {
+a#linkedin {
 	background-image:url(../images/linkedin.png);    
 }
 
-#picasa {
+a#picasa {
 	background-image:url(../images/picasa.png);    
 }
 
-#youtube {
+a#youtube {
 	background-image:url(../images/youtube.png);    
 }
 
-#twitter {
+a#twitter {
 	background-image:url(../images/twitter.png);    
 }
 
