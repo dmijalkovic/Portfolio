@@ -60,6 +60,9 @@ body {
 	margin: 0 auto;
 	background: #eeeeee;
 	font-family: "Arial", serif;
+	
+/*	background-image:url(../images/bg.png);
+	background-repeat: repeat-x; */
 }
 
 #header {
@@ -84,7 +87,7 @@ body {
 	border-bottom: 3px solid black; 
 	margin-top: 70px; 
 	float: right; 
-	width: 396px
+	width: 495px;
 }
 
 #menu a img {
