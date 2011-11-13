@@ -157,6 +157,65 @@ div#banner p {
 	margin-top: 28px;	
 	color: #4c4b4a;
 }
+div#buttons {
+	margin-top: 5px;
+}
+
+div.btn {
+	border: 1px solid #e1e1e1;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	font-size: 21pt;
+	width: 273px;
+	height: 100px;
+	padding: 20px;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
+    float: left;
+    margin-right: 22px;
+}
+
+div.last {
+	margin: 0;
+}
+
+div.btn a {
+	text-decoration: none;
+	color: #4c4b4a;
+	text-transform: capital;
+}
+
+div.btn a:hover {
+	color: #f91d79;
+}
+
+div#websites-btn a {
+	background: transparent url(../images/home/websites-normal.png) no-repeat bottom right;
+	padding: 0px 147px 90px 0px;
+}
+
+div#websites-btn a:hover {
+	background: transparent url(../images/home/websites-over.png) no-repeat bottom right;
+}
+
+div#icons-btn a {
+	background: transparent url(../images/home/icons-normal.png) no-repeat bottom right;
+	padding: 0px 199px 91px 0px;
+}
+
+div#icons-btn a:hover {
+	background: transparent url(../images/home/icons-over.png) no-repeat bottom right;
+}
+
+div#print-btn a {
+	background: transparent url(../images/home/print-normal.png) no-repeat bottom right;
+	padding: 0px 207px 81px 0px;
+}
+
+div#print-btn a:hover {
+	background: transparent url(../images/home/print-over.png) no-repeat bottom right;
+}
 
 /* Footer
 --------------------------------------------------------*/
