@@ -132,6 +132,32 @@ body {
 	background: #03bdf8;
 }
 
+
+/* Home
+--------------------------------------------------------*/
+div#banner {
+	background: transparent url(../images/home/banner.png) no-repeat;
+	width: 994px;
+	height: 295px; /*372px;*/
+	padding: 40px 80px;
+}
+
+div#banner h1 {
+	font-size: 22pt;
+	color: #f91d79;
+}
+
+div#banner h1 span {
+	font-size: 28pt;
+}
+
+div#banner p {
+	font-size: 23px;
+	line-height: 180%;
+	margin-top: 28px;	
+	color: #4c4b4a;
+}
+
 /* Footer
 --------------------------------------------------------*/
 #footer {
@@ -172,7 +198,7 @@ body {
 
 
 a#blogger {
-	background: transparent url(../images/blogger.png) no-repeat;
+	background: url(../images/blogger.png);
 }
 
 a#email {
