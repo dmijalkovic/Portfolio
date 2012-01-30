@@ -222,6 +222,7 @@ div#print-btn a:hover {
 #footer {
 	width: 100%;
 	margin-top: 30px;
+	line-height: 15px;
 }
 
 #footer hr, #footer hr.bottom {
@@ -232,7 +233,11 @@ div#print-btn a:hover {
 }
 
 #footer hr.bottom {
-	margin-top: -15px;
+	margin-top: -14px;
+}
+
+#footer ul li:first-child {
+	margin-right: 8px;	
 }
 
 #footer ul li a, #footer ul li, 
